@@ -1,0 +1,15 @@
+//Ingresar 2 importes, sumarlos, si el importe es mayor que 1000 le hacen el 10% de descuento
+
+Algoritmo sin_titulo
+	Definir importe1, importe2, total Como Real
+	Mostrar "ingresar importe1"
+	Leer importe1
+	Mostrar "ingresar importe2"
+	Leer importe2
+	Total=importe1+importe2
+	Si Total>1000 Entonces
+		Total=Total-(total*0.10)
+		Mostrar "Total con desscuento:", total
+	FinSi
+		
+FinAlgoritmo

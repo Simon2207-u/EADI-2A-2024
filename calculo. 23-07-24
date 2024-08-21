@@ -1,0 +1,18 @@
+// Realizar un programa que solicite el precio de tres productos y sus respectivas cantidades luego calcule el total a pagar
+
+Algoritmo calculo
+	Definir PrecioProd1, CantProd1, PrecioProd2, CantProd2, CantProd3, PrecioProd3 Como Real
+	Mostrar "precio del primer producto"
+	Leer PrecioProd1
+	Mostrar "ingresar cantidad del primer producto"
+	Leer CantProd1
+	Mostrar "ingresar precio del segundo producto"
+	Leer PrecioProd2
+	Mostrar "ingresar cantidad del segundo producto"
+	Leer CantProd2
+	Mostrar "Precio tercer producto"
+	Leer PrecioProd3
+	Mostrar "ingresar cantidad del tercer producto"
+	Leer CantProd3
+	total=(PrecioProd1*CantProd1)+(PrecioProd2*CantProd2)+(PrecioProd3*CantProd3)
+	FinAlgoritmo
